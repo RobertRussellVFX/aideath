@@ -129,7 +129,8 @@ const App = () => {
   useEffect(() => {
     const newSocket = io(config.SERVER_URL, {
       withCredentials: true,
-      transports: ['websocket', 'polling']
+      transports: ['polling'], // Force polling only for now
+      upgrade: false // Prevent upgrading to websocket
     });
     setSocket(newSocket);
 
