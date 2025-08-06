@@ -245,7 +245,7 @@ const App = () => {
 
   const renderLogin = () => (
     <div className="card setup-card">
-      <h2>Join Dead by AI</h2>
+      <h2>Join Death by AI</h2>
       <div className="player-inputs">
         <input
           type="text"
@@ -530,7 +530,10 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Dead by AI</h1>
+      <h1>Death by AI</h1>
+      <img src="/monke-removebg-preview.png" alt="monke" className="monke-image" />
+      <img src="/monke-removebg-preview.png" alt="monke" className="monke-image2" />
+      <img src="/monke-removebg-preview.png" alt="monke" className="monke-image3" />
       {renderContent()}
     </div>
   );

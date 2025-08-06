@@ -51,6 +51,28 @@ h2, h3 {
     margin-top: 0;
 }
 
+.monke-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.monke-image2 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  position: absolute;
+  right: 50px;
+}
+
+.monke-image3 {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+  position: absolute;
+  right: 50px;
+}
+
 .card {
   background-color: var(--surface-color);
   border: 1px solid var(--border-color);
