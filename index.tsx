@@ -127,7 +127,10 @@ const App = () => {
 
   // Connect to server on component mount
   useEffect(() => {
-    const newSocket = io(config.SERVER_URL);
+    const newSocket = io(config.SERVER_URL, {
+      withCredentials: true,
+      transports: ['websocket', 'polling']
+    });
     setSocket(newSocket);
 
     // Socket event listeners
